@@ -7,7 +7,7 @@ contract Lottery {
     address payable[] public players;
     address payable public winner;
 
-    //the manager is the account that deploys the contract
+    //the manager is the wallet that deploys the contract
     constructor() {
         manager = msg.sender;
     }
