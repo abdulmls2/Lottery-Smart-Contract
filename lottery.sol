@@ -44,6 +44,7 @@ contract Lottery {
         //restarting the lottery, new list of players
         players = new address payable[](0); 
 
+/*Add a UI in future*/
 
 
     }
